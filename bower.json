@@ -1,0 +1,20 @@
+{
+  "name": "ng-ouard",
+  "version": "0.0.0",
+  "authors": [
+    "Paul-Emile MINY <paulemile.miny@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.16",
+    "angular-mocks": "~1.2.16"
+  }
+}
