@@ -6,7 +6,7 @@ angular.module('ngOuardApp')
       template: '<div></div>',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
-        element.text('<img src="http://www.lanetscouade.com/sites/default/files/styles/profile_user_view/public/nicolas.png" alt="ng-gouard"/>');
+        element.html('<img src="http://www.lanetscouade.com/sites/default/files/styles/profile_user_view/public/nicolas.png" alt="ng-gouard"/>');
       }
     };
   });
